@@ -37,7 +37,7 @@ def pca_results(good_data, pca):
 	fig, ax = plt.subplots(figsize = (14,8))
 
 	# Plot the feature weights as a function of the components
-	components.plot(ax = ax, kind = 'bar');
+	components.plot(ax = ax, kind = 'barh');
 	ax.set_ylabel("Feature Weights")
 	ax.set_xticklabels(dimensions, rotation=0)
 
